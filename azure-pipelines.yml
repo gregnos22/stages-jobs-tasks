@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: az400m05l05a-pool
 
 stages:
 - stage: BuildApp
