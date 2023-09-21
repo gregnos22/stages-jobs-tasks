@@ -2,7 +2,9 @@ trigger:
 - main
 
 pool:
-  vmImage: az400m05l05a-pool
+  name: az400m05l05a-pool
+  demands:
+  - agent.name -equals DESKTOP-IL9LGB7
 
 stages:
 - stage: BuildApp
